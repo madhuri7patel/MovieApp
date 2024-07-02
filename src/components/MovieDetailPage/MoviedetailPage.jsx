@@ -20,7 +20,6 @@ const MovieDetailsPage = () => {
     state.movies.list.find((m) => m.id == movieId)
   );
 
-  console.log(movie, "MOvie");
   const [review, setReview] = useState({
     user: "",
     comment: "",
@@ -50,7 +49,7 @@ const MovieDetailsPage = () => {
   };
 
   return (
-    <div className="movie-details">
+    <div className="movie-detailss">
       <h1 className="movie-title">{movie.title}</h1>
       <p className="movie-description">{movie.description}</p>
       <p className="movie-year-genre">{`${movie.releaseYear} | ${movie.genre}`}</p>

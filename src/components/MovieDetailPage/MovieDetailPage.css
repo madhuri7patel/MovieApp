@@ -1,29 +1,24 @@
-.movie-details {
+.movie-detailss {
   padding: 16px;
 }
 
-.movie-image {
-  width: 100%;
-  height: auto;
-}
-
-.movie-title {
+.movie-detailss .movie-title {
   font-size: 2rem;
   margin-top: 16px;
 }
 
-.movie-description {
+.movie-detailss .movie-description {
   margin-top: 8px;
   color: #666;
 }
 
-.movie-year-genre,
-.movie-rating,
-.movie-watched {
+.movie-detailss .movie-year-genre,
+.movie-detailss .movie-rating,
+.movie-detailss .movie-watched {
   margin-top: 8px;
 }
 
-.toggle-watch-status {
+.movie-detailss .toggle-watch-status {
   margin-left: 8px;
   padding: 4px 8px;
   border: none;
@@ -32,32 +27,32 @@
   cursor: pointer;
 }
 
-.toggle-watch-status:hover {
+.movie-detailss .toggle-watch-status:hover {
   background-color: #0056b3;
 }
 
-.reviews {
+.movie-detailss .reviews {
   margin-top: 16px;
 }
 
-.review {
+.movie-detailss .review {
   margin-top: 8px;
   padding: 8px;
   border-bottom: 1px solid #ddd;
 }
 
-.add-review {
+.movie-detailss .add-review {
   margin-top: 16px;
 }
 
-.add-review input,
-.add-review textarea {
+.movie-detailss .add-review input,
+.movie-detailss .add-review textarea {
   width: 100%;
   padding: 8px;
   margin-top: 8px;
 }
 
-.add-review button {
+.movie-detailss .add-review button {
   margin-top: 8px;
   padding: 8px 12px;
   border: none;
@@ -66,35 +61,35 @@
   cursor: pointer;
 }
 
-.add-review button:hover {
+.movie-detailss .add-review button:hover {
   background-color: #218838;
 }
 
-.movie-actions {
+.movie-detailss .movie-actions {
   margin-top: 16px;
 }
 
-.movie-actions button {
+.movie-detailss .movie-actions button {
   padding: 8px 12px;
   margin-right: 8px;
   border: none;
   cursor: pointer;
 }
 
-.movie-actions button:nth-child(1) {
+.movie-detailss .movie-actions button:nth-child(1) {
   background-color: #ffc107;
   color: black;
 }
 
-.movie-actions button:nth-child(1):hover {
+.movie-detailss .movie-actions button:nth-child(1):hover {
   background-color: #e0a800;
 }
 
-.movie-actions button:nth-child(2) {
+.movie-detailss .movie-actions button:nth-child(2) {
   background-color: #dc3545;
   color: white;
 }
 
-.movie-actions button:nth-child(2):hover {
+.movie-detailss .movie-actions button:nth-child(2):hover {
   background-color: #c82333;
 }
