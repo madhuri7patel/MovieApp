@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "The Lost Expedition",
+    "director": "John Smith",
+    "year": 2021,
+    "genre": "Adventure",
+    "rating": 7.8,
+    "duration": "2h 10m",
+    "image": "https://example.com/images/the-lost-expedition.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Space Odyssey",
+    "director": "Jane Doe",
+    "year": 2018,
+    "genre": "Sci-Fi",
+    "rating": 8.5,
+    "duration": "2h 30m",
+    "image": "https://example.com/images/space-odyssey.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Mystery of the Manor",
+    "director": "Alice Johnson",
+    "year": 2019,
+    "genre": "Mystery",
+    "rating": 7.3,
+    "duration": "1h 45m",
+    "image": "https://example.com/images/mystery-of-the-manor.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Romantic Getaway",
+    "director": "Michael Brown",
+    "year": 2020,
+    "genre": "Romance",
+    "rating": 6.9,
+    "duration": "1h 55m",
+    "image": "https://example.com/images/romantic-getaway.jpg"
+  },
+  {
+    "id": 5,
+    "title": "The Great Heist",
+    "director": "Emma Wilson",
+    "year": 2022,
+    "genre": "Crime",
+    "rating": 8.2,
+    "duration": "2h 20m",
+    "image": "https://example.com/images/the-great-heist.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Haunted Hollow",
+    "director": "Chris Taylor",
+    "year": 2021,
+    "genre": "Horror",
+    "rating": 6.5,
+    "duration": "1h 40m",
+    "image": "https://example.com/images/haunted-hollow.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Comedy Night",
+    "director": "Laura Green",
+    "year": 2019,
+    "genre": "Comedy",
+    "rating": 7.0,
+    "duration": "1h 50m",
+    "image": "https://example.com/images/comedy-night.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Epic Battle",
+    "director": "Robert White",
+    "year": 2018,
+    "genre": "Action",
+    "rating": 8.1,
+    "duration": "2h 25m",
+    "image": "https://example.com/images/epic-battle.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Fantasy World",
+    "director": "Emily King",
+    "year": 2020,
+    "genre": "Fantasy",
+    "rating": 7.9,
+    "duration": "2h 15m",
+    "image": "https://example.com/images/fantasy-world.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Documentary Life",
+    "director": "David Brown",
+    "year": 2022,
+    "genre": "Documentary",
+    "rating": 8.6,
+    "duration": "1h 30m",
+    "image": "https://example.com/images/documentary-life.jpg"
+  }
+]

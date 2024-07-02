@@ -1,10 +1,12 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchMovies } from '../redux/movieSlice';
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchMovies } from "../redux/movieSlice";
 
 const HomePage = () => {
   const dispatch = useDispatch();
-  const movies = useSelector(state => state.movies.list);
+  const movies = useSelector((state) => state.movies.list);
+
+  console.log(movies, "Movies in Homepage");
 
   useEffect(() => {
     dispatch(fetchMovies());
@@ -13,7 +15,7 @@ const HomePage = () => {
   return (
     <div>
       <h1>Movie Watchlist</h1>
-      {movies.map(movie => (
+      {movies.map((movie) => (
         <div key={movie.id}>
           <h3>{movie.title}</h3>
           <p>{movie.description}</p>
